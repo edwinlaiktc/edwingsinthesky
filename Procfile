@@ -1,0 +1,1 @@
+web: gunicorn maomakmak.wsgi --log-file -
