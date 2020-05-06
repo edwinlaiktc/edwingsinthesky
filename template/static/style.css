@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Sriracha', cursive;
+  line-height: 1.4em;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: coral;
+}
+
+a:visited {
+  color: indianred;
+}
+
+.menu {
+  list-style: none;
+  border: orange 2px solid;
+  border-radius: 5px;
+  background-color: darkviolet;
+  overflow: auto;
+  margin: 5px 10px;
+}
+
+.menu li{
+  display: inline;
+  margin-right: 15px;
+}
+
+/* .menu li:last-child {
+  margin-right: 0px;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18pt;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.menu li a:hover {
+  color: rgb(189, 189, 189);
+  background-color: rgb(172, 115, 224);
+} */
+
+#header {
+  margin-bottom: 15px;
+  background: url("media/background.jpg") center center/cover no-repeat;
+  /*background-attachment: fixed;*/
+  color: #fff;
+  padding: 10px;
+}
+
+#main {
+  /* background-image: url("background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  padding: 5px;
+  float: left;
+  width: 69%;
+}
+
+#welcome {
+  margin: 10px;
+  text-align: center;
+}
+
+#blog {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.article {
+  text-align: justify;
+  padding: 5px;
+  border: burlywood solid 2px;
+}
+
+#article1 {
+  display: inline-block;
+  width: 32.5%;
+}
+#article2 {
+  display: inline-block;
+  width: 32.5%;
+}
+
+#article3 {
+  display: inline-block;
+  width: 32.5%;
+}
+
+#sidebar {
+  /* padding: 10px 20px 10px 20px; */
+  padding: 10px 20px;
+  float: right;
+  width: 29%;
+}
+
+.clr {
+  clear: both;
+  height: 1px;
+}
+
+#footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-top: solid 2px burlywood;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.card {
+  border-radius: 10px;
+  border: 3px dotted rgb(255, 225, 204);
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+}
+
+#logo {
+  content: url("media/Edwing.png");
+  display: block;
+  margin: auto;
+}
+
+.album {
+  width: 100px;
+  height: 100px;
+}
+
+#album1 {
+  position: static;
+  background: red;
+}
+
+#album2 {
+  background: yellow;
+}
+
+#album3 {
+  background: green;
+}
